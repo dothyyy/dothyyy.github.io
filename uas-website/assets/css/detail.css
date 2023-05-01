@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "myriad-pro-1";
+    src: url("C:/Users/62811/uas-website/myriad-pro-regular_fsYns/Myriad Pro Regular/Myriad Pro Regular.ttf");
+}
+
+.img-container{
+    width: 500px;
+    height: 500px;
+    background-color: #EDDCD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img{
+    width: 450px;
+    height: 450px;
+}
+
+#quantity, #size{
+    border: 1px solid black;
+    display: block;
+    width: 100px;
+    height: 57px;
+    font-size: 27px;
+}
+
+input{
+    text-align: center;
+    padding: 25px;
+}
+
+#item-name{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "myriad-pro-1", sans-serif;
+    margin-bottom: 20px;
+}
+
+#item-price{
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "myriad-pro-1", sans-serif;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "myriad-pro-1", sans-serif;
+}
+
+.quantity, .size{
+    margin-right: 50px;
+    display: inline-block;
+}
+
+#addtocart{
+    width: 100%;
+    background-color: #554A3C;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "myriad-pro-1", sans-serif;
+    color: white;
+    height: 64px;
+    margin: 50px 0px;
+}
+
+.desc{
+    font-size: 27px;
+    color: black;
+}
+
+.material, .instructions{
+    margin: 50px 0px;
+}
+
+#sizeguide{
+    font-weight: 700;
+    font-family: "myriad-pro-1", sans-serif;
+}
+
+.related-product{
+    width: 100%;
+    background-color: #F9F3E3;
+    text-align: center;
+    margin: 100px 0px;
+    padding: 50px;
+}
+
+#related-product-title{
+    font-size: 40px;
+    font-family: "myriad-pro-1", sans-serif;
+    font-weight: 400px;
+}
+
+.box{
+    width: 262px;
+    height: 450px;
+}
+
+.carousel-item a{
+    display: inline-block;
+    margin: 0px 50px;
+    background-color: #EDDCD2;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.desc{
+    padding: 10px;
+}
+
+.img-container-carousel img{
+    width: 262px;
+    height: 262px;
+}
+
+.item-name{
+    text-align: left;
+    font-size: 22px;
+    height: 100px;
+    font-family: "myriad-pro-1", sans-serif;
+    font-weight: 400;
+}
+
+.item-price{
+    text-align: left;
+    font-size: 22px;
+    height: 60px;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 700;
+}
+
+.carousel-inner{
+    margin-bottom: 50px;
+}
+
+.carousel-indicators{
+    position: static;
+}

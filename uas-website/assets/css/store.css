@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "myriad-pro-1";
+    src: url("C:/Users/62811/uas-website/myriad-pro-regular_fsYns/Myriad Pro Regular/Myriad Pro Regular.ttf");
+}
+
+.filter-box{
+    background-color: #DBDFC7;
+    text-align: center;
+    padding: 25px;
+    width: 300px;
+}
+
+.filter, .sort{
+    border: 1px solid #8D7B63;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.dropdown-menu > .dropend:hover> .dropdown-menu{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+}
+
+.dropdown-menu > .dropend:hover> .sub-menu{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+.dropend > .nav-link{
+    padding: 15px;
+    margin: 10px;
+}
+
+.box{
+    background-color: #EDDCD2;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 262px;
+    height: 450px;
+    margin-bottom: 25px;
+}
+
+.img-container img{
+    width: 262px;
+    height: 262px;
+}
+
+.desc{
+    padding: 30px;
+}
+
+.content > .row{
+    column-gap: 25px;
+    width: 100%;
+}
+
+.item-name{
+    font-size: 22px;
+    height: 100px;
+    font-family: "myriad-pro-1", sans-serif;
+    font-weight: 400;
+}
+
+.item-price{
+    font-size: 22px;
+    height: 60px;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 700;
+}
+
+.fitler-title{
+    font-size: 22px;
+    height: 60px;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 700;
+}
+
+.content{
+    padding: 50px;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #554A3C;
+}

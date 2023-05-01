@@ -1,0 +1,40 @@
+.filter-box{
+    width: 100%;
+    text-align: center;
+}
+.filter-box > .dropdown{
+    display: inline-block;
+}
+
+.filter-box{
+    background-color: transparent;
+}
+
+.items{
+    display: grid;
+    background-color: #DBDFC7;
+    padding: 150px;
+    margin-bottom: 200px;
+}
+
+.unavail{
+    display: hidden;
+}
+
+.dropdown-menu > .dropdown:hover> .dropdown-menu{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+}
+
+.dropdown-menu > .dropdown:hover> .sub-menu{
+    border-radius: 0px;
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+.filter-box > .dropdown > .nav-link{
+    padding: 15px;
+    margin: 10px;
+}

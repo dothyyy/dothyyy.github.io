@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://use.typekit.net/nbo5ooz.css');
+@font-face {
+    font-family: "myriad-pro-1";
+    src: url("/Users/mac/Desktop/uas-website/assets/myriad-pro-regular_fsYns");
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+}
+
+nav{
+    margin: 50px 50px 0px 50px;
+}
+
+.navbar-brand{
+    color: #AC7B61;
+    font-weight: 400px;
+    font-size : 53px;
+    font-family: 'Schoolbell', cursive;
+}
+
+#nav-item{  
+    font-size : 16px;
+    font-family: "myriad-pro", sans-serif;
+    font-weight : 700px; 
+    color: #AC7B61;
+}
+
+.dropdown-item, .dropdown-toggle{
+    font-size : 16px;
+    font-family: "myriad-pro", sans-serif;
+    color: #AC7B61;
+}
+
+.navbar li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F5F2EA;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-footer{
+    font-size: 22px;
+    color: #8D7B63;
+}
+
+.title-footer{
+    font-size: 24px;
+    color: #554A3C;
+}
+
+.footer-brand{
+    padding: 100px 100px;
+    color: #AC7B61;
+    font-weight: 400px;
+    font-size : 73px;
+    font-family: 'Schoolbell', cursive;
+}
+
+input{
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #8D7B63;
+    background: transparent;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.color-1{
+    color: #8D7B63;
+}
+
+.ask-us-at{
+    font-size: 20px;
+    font-weight : 600px;
+}
+
+.ask-us-at img{
+    height: 26px;
+    width: 26px;
+}
+
+.dropstart:hover> .dropdown-menu{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+
+.dropdown-item{
+    padding: 15px;
+}
+
+.dropstart:hover> .sub-menu{
+    position: absolute;
+    right: 159px;
+    top: 0px;
+}
+
+.dropdown-menu{
+    padding: 0px;
+}
+
+.dropdown-divider{
+    margin: 0px;
+}
+
+.links, .links a{
+    font-family: "myriad-pro", sans-serif;
+    font-size: 20px;
+    color: #AC7B61;
+    opacity: 0.8;
+}
+
+#current{
+    color: #AC7B61;
+    opacity: 0.4;
+}
