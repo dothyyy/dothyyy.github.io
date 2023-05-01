@@ -60,7 +60,7 @@
 }
 
 .about-us{
-    background-image: url("/Users/mac/Desktop/uas-website/assets/..");  
+    background-image: url("../img/bgbanner.png");  
     background-size: cover;
     width: 100%;
     height: 100%;
